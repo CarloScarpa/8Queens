@@ -1,0 +1,15 @@
+Theorem 1 (D. Van De Weem): There are no 8-teams solutions to the 8 queens problem.
+ Proof: There are 12 special squares on the chessboard, i.e. the four corners, the four central squares and squares c3, c6, f3, f6, who are covered by at most one piece in each of the solutions to the 8 queens problem. Then, any 8-teams solution would cover at most 8 of these 12 special squares. Hence, no 8-teams solution is possible.
+
+Conjecture 1: There are no 7-teams solutions to the 8 queens problem.
+
+Remark 1: A 7-teams solution of the problem leaves 1 free square in each row and column. This implies that a 7-teams solution covers at most 7 special squares and at least 6.
+
+Conjecture 2: Up to permutations of the eight teams, reflections and rotations of the board, the five pictured above are all the possible 6-teams solutions.
+
+Conjecture 3: Every 6-teams solutions is either horizontally or vertically symmetric.
+
+Remark 2: Conjecture 2 is stronger than Conjecture 3.
+
+Remark 3: Conjecture 3 would imply Conjecture 1.
+ Proof: A 6-teams solution that has two pairs of empty special squares in the same row or column cannot be completed to a 7-teams one, since the additional team can cover just one of these four empty special squares. If a 6-teams solutions is vertically (or horizontally) symmetrical, it must be the case that there are in fact at least three empty pairs of special squares in the same colum (row).
